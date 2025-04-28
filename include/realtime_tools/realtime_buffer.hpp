@@ -33,6 +33,10 @@
 #ifndef REALTIME_TOOLS__REALTIME_BUFFER_HPP_
 #define REALTIME_TOOLS__REALTIME_BUFFER_HPP_
 
+#ifndef NON_POLLING
+#define NON_POLLING
+#endif
+
 #include <chrono>
 #include <mutex>
 #include <thread>

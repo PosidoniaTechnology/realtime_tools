@@ -37,6 +37,10 @@
 #ifndef REALTIME_TOOLS__REALTIME_PUBLISHER_HPP_
 #define REALTIME_TOOLS__REALTIME_PUBLISHER_HPP_
 
+#ifndef NON_POLLING
+#define NON_POLLING
+#endif 
+
 #include <atomic>
 #include <chrono>
 #include <condition_variable>
